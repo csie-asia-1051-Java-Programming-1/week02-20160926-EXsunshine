@@ -18,10 +18,10 @@ public class ex02_105021057 {
 		double Y = scn.nextInt();
 		double m = Math.pow(X, 2) + Math.pow(Y, 2);
 		if (X > 100 & Y > 100) {
-			System.out.println(false);
+			System.out.println("在員外");
 		}
 		if (X < -100 & Y < -100) {
-			System.out.println(false);
+			System.out.println("在員外");
 		} else {
 			m = Math.sqrt(m);
 		}

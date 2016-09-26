@@ -13,16 +13,17 @@ public class ex03_105021057 {
 		// TODO Auto-generated method stub
 Scanner scn = new Scanner(System.in);
 int m = scn.nextInt();
+int O = 0;
 if(m<120){
 	m = (m/30)*30;
 	System.out.println(m);
 }else{
 	if(m<240){
-		m= (m/30)*40;
-		System.out.println(m);
+		O= 120+((m-120)/30)*40;
+		System.out.println(O);
 				}else{
-					m = (m/30)*40;
-					System.out.println(m);
+					O = 280+((m-240)/30)*60;
+					System.out.println(O);
 				}
 }
 
